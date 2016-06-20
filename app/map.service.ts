@@ -1,5 +1,8 @@
 import { Injectable, Inject } from '@angular/core';
-import { Map, GraphicsLayer } from 'esri';
+//import { Map, GraphicsLayer } from 'esri';
+
+import Map = require('esri/Map');
+import GraphicsLayer = require('esri/layers/GraphicsLayer');
 
 import { PointsModel } from './points.model';
 

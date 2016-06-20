@@ -1,6 +1,11 @@
 import { Injectable } from '@angular/core';
 
-import { Graphic, Point, GraphicsLayer, Collection } from 'esri';
+//import { Graphic, Point, GraphicsLayer, Collection } from 'esri';
+
+import Graphic = require('esri/Graphic');
+import Point = require('esri/geometry/Point');
+import GraphicsLayer = require('esri/layers/GraphicsLayer');
+import Collection = require('esri/core/Collection');
 
 @Injectable()
 export class PointsModel {

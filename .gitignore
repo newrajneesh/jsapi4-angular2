@@ -4,3 +4,5 @@ bower_components/
 _test-output/
 # *.js
 *.js.map
+
+dist/

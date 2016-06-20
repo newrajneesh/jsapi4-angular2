@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Graphic, Collection, Point } from "esri";
+import Graphic = require("esri/Graphic");
+import Collection = require("esri/core/Collection");
+import Point = require("esri/geometry/Point");
 
 import { PointsModel } from './points.model';
 

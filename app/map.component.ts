@@ -1,6 +1,10 @@
 import { Component, ElementRef, Output, EventEmitter } from '@angular/core';
 import { MapService } from './map.service';
-import { MapView, Point, SpatialReference } from 'esri';
+//import { MapView, Point, SpatialReference } from 'esri';
+
+import MapView = require('esri/views/MapView');
+import Point = require('esri/geometry/Point');
+import SpatialReference = require('esri/geometry/SpatialReference');
 
 @Component({
   selector: 'esri-map',
