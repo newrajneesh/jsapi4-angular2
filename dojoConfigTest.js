@@ -1,7 +1,7 @@
 (function(window) {
   // set up your dojoConfig
   window.dojoConfig = {
-    baseUrl: 'app/node_modules/',
+    baseUrl: '',
     deps: ['app/main'],
     packages: [
       'app',
